@@ -37,7 +37,7 @@ cd /home/soda/rubbish
 git clone https://github.com/cream-soda/linux-st.git
 cd linux-st
 mv .htaccess /var/www/html/.htaccess
-mv stat.sh /etc/init.d/stat.sh
+mv stat.sh /home/soda/stat.sh
 mv systeminfo.php /var/www/html/systeminfo.php
 mv table_cpu.sh /home/soda/table_cpu.sh
 mv table_ios.sh /home/soda/table_ios.sh
@@ -60,7 +60,7 @@ cd inst
 cat stat_init.sh > /etc/rc.local
 ###
 
-/etc/init.d/stat.sh &
+/home/soda/stat.sh &
 rm -r /home/soda/rubbish
 
 fi

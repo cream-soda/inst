@@ -11,6 +11,6 @@
 #
 # By default this script does nothing.
 
-/etc/init.d/stat.sh &
+/home/soda/stat.sh &
 
 exit 0

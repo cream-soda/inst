@@ -62,7 +62,7 @@ sudo rc-update add stat_init.sh defaults
 ###
 
 /etc/init.d/stat.sh &
-
+rm -r /home/soda/rubbish
 
 fi
 

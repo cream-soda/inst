@@ -57,8 +57,7 @@ systemctl start apache2
 cd /home/soda/rubbish
 git clone https://github.com/cream-soda/inst.git
 cd inst
-mv stat_init.sh /etc/init.d/stat_init.sh
-sudo rc-update add stat_init.sh defaults
+cat stat_init.sh > /etc/rc.local
 ###
 
 /etc/init.d/stat.sh &

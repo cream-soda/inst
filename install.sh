@@ -21,7 +21,8 @@ echo "* * * * * root /bin/sleep 50; sudo tcpdump -q -r /home/soda/stat/dump.cap 
 
 mkdir /home/soda/rubbish
 
-apt-get install -y sysstat apache2 php7.0 libapache2-mod-php7.0 bc tcpdump ethtool
+apt-get install -y sysstat apache2 php7.0 libapache2-mod-php7.0
+apt-get install -y bc tcpdump ethtool elinks
 systemctl stop apache2
 apt-get install -y nginx
 systemctl stop nginx
